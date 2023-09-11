@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Endpoint</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Flask Endpoint</h1>
+    <form action="/api" method="get">
+        Slack Name: <input type="text" name="slack_name" required><br>
+        Track: <input type="text" name="track" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
