@@ -30,7 +30,7 @@ def get_info():
 
     # GitHub URLs
     github_repo_url = "https://github.com/emmanueldavids/HNGx-Intenship"
-    github_file_url = f"{github_repo_url}/app/routes.py"
+    github_file_url = f"{github_repo_url}/blob/main/routes.py"
 
     # Response JSON
     response_data = {
